@@ -52,7 +52,8 @@ vi /lib/systemd/system/docker.service
 ```
 ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:4243 --containerd=/run/containerd/containerd.sock
 ```
-	  Save the Modified File
+
+Save the Modified File
 	
 3. Reload the docker daemon using the below command
 ```
