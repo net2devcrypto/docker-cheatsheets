@@ -85,8 +85,10 @@ TriggeredBy: ● docker.socket
 ```
 curl http://localhost:4243/images/json
 ```
-	    To test a remote host, replace "localhost" with the public IP address of Docker Host
-	     Make sure to block port 4243 from unauthorized access.
+
+To test a remote host, replace "localhost" with the public IP address of Docker Host.
+
+Make sure to block port 4243 from unauthorized access.
 
 ## COMMANDS CHEATSHEET
 
