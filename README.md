@@ -1,4 +1,4 @@
-# docker-cheatsheets
+# Docker Cheatsheet
 
 Because time is money, here's the easiest docker cheatsheet you will find on the internet, period.
 
@@ -66,7 +66,9 @@ sudo service docker restart
 ```
 sudo systemctl status docker
 ```
-             You should see the following terminal output:
+
+You should see the following terminal output:
+
 ```
 ● docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
