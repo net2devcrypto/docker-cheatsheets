@@ -1,7 +1,8 @@
 # docker-cheatsheets
+
 Because time is money, here's the easiest docker cheatsheet you will find on the internet, period.
 
-Install Docker on Ubuntu 22.04:
+##Install Docker on Ubuntu 22.04:
 c/p in order
 
 #1
