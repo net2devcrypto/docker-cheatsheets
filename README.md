@@ -2,7 +2,7 @@
 
 Because time is money, here's the easiest docker cheatsheet you will find on the internet, period.
 
-##Install Docker on Ubuntu 22.04:
+## Install Docker on Ubuntu:
 c/p in order
 
 #1
@@ -39,7 +39,7 @@ sudo systemctl status docker
 ```
 
 
-ENABLE Docker  API
+## ENABLE Docker  API
 
 1. Open docker.service file:
 ```
@@ -88,14 +88,16 @@ curl http://localhost:4243/images/json
 	    To test a remote host, replace "localhost" with the public IP address of Docker Host
 	     Make sure to block port 4243 from unauthorized access.
 
-COMMANDS CHEATSHEET
+## COMMANDS CHEATSHEET
 
 TO SEND ANY API COMMAND TO A REMOTE DOCKER HOST JUST ADD THE HOST PARAMETER AFTER "docker" BEFORE THE ACTION:
+
 ```
 docker -H "ipaddressofhost:4243" build . -t nameyourimage
 ```
 
 BUILD DOCKERFILE IMAGE AND DEPLOY CONTAINER :
+
 Navigate to the folder containing your dockerfile and execute.
 ```
 cd folderxyz
@@ -104,16 +106,19 @@ docker run --name nameyourcontainer -p 8084:8084 -d nameofimage
 ```
 
 CREATE DOCKER NETWORK (BRIDGE MODE):
+
 ```
 docker network create -d bridge nameofnetwork --subnet=172.75.0.0/16
 ```
 
 IF YOU WANT TO DEPLOY A CONTAINER  BUT ATTACH TO A DIFFERENT NETWORK:
+
 ```
 docker run --net nameofnetwork --name nameyourcontainer -p 8084:8084 -d nameofimage
 ```
 
 STOP RUNNING CONTAINER
+
 ```
 docker container stop nameofcontainer
 ```
