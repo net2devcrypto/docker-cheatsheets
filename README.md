@@ -12,7 +12,7 @@
  
 Because time is money, here's the easiest docker cheatsheet you will find on the internet, period.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" width="250" height="55">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" width="200" height="45">
 
 ## Install Docker on Ubuntu:
 c/p in order
