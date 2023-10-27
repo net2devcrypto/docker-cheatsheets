@@ -2,7 +2,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=DockerCheatSheet&height=100&section=header"/>
 </p>
 <img src="https://github.com/net2devcrypto/misc/blob/main/net2dev-sociallogo.png" width="250" height="55">
+
 Because time is money, here's the easiest docker cheatsheet you will find on the internet, period.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" width="250" height="55">
 
 ## Install Docker on Ubuntu:
 c/p in order
