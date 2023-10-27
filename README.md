@@ -146,7 +146,7 @@ docker container stop nameofcontainer
 
 START RUNNING CONTAINER
 ```
-docker container stop nameofcontainer
+docker container start nameofcontainer
 ```
 
 SHOW THE LAST 30 LINES OF A CONTAINER CONSOLE LOG 
